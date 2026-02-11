@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Portal Page</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Student Portal Page</h1>
+        <p>Welcome to Pioneer International University. Where excellence meet brilliance!</p>
+
+        <nav>
+            <a href="semantic-layout.html">Home</a><br>
+            <a href="dashboard.html">Dashboard</a><br>
+            <a href="courses.html">Courses</a><br>
+            <a href="contact.html">Contact</a><br>
+        </nav>
+    </header>
+
+        <main>
+            <section>
+                <article>
+                    <h2>Information Technology</h2>
+                    <p>We teach many programming languages like JavaScript,C#, C++ and Python</p>
+                </article>
+
+                <article>
+                    <h2>International Relations</h2>
+                    <p>We give the best International Relations course and producing the best politians in the Country</p>
+                </article>
+
+                <article>
+                    <h2>Education</h2>
+                    <p>We provide various specialisation for our Education students, Spanish and French included in the learning</p>
+                </article>
+
+                <article>
+                    <h2>Commerce</h2>
+                    <p>We produce the best business people and Enterprenuers in the Country by teaching financial literacy.</p>
+                </article>
+            </section>
+
+            <section>
+                <form action="#" method="post">
+                    <fieldset>
+                        <legend>Personal Information</legend>
+                    <label for="name">Name: <br>
+                    <input type="text" name="name" id="name" placeholder="Enter your full names" minlength="3" required></label><br><br>
+
+                    <label for="email">Email: <br>
+                    <input type="email" name="email" id="email" placeholder="Enter your Email Address" required></label><br><br>
+
+                    <label for="tel">Phone Number: <br>
+                    <input type="tel" name="tel" id="tel" placeholder="Enter your Phone Number" pattern="\+2547[0-9]{8}" required></label><br><br>
+                    </fieldset>
+
+                    <aside>
+                        <h3>Why join our Program?</h3>
+                        <ul>
+                            <li>We provide the best quality education in the whole Country</li>
+                            <li>We have already produce country recognised personel with outstanding achievements in their resume</li>
+                            <li>We have great connections with worldwide organisations that enables our students get firm attachments and quick employment upon graduation</li>
+                        </ul>
+                    </aside>
+
+                    <fieldset>
+                        <legend>Course Selection</legend>
+                        <label for="course">Course Selection</label>
+                        <select name="course" id="course" required>
+                        <option value=""disabled selected>Select your Course</option>
+                        <option value="information-technology">Information technology</option>
+                        <option value="international-relations">International Relations</option>
+                        <option value="education">Education</option>
+                        <option value="commerce">Commerce</option>
+                        </select>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Level Of Study</legend>
+                        <label for="beginner">
+                        <input type="radio" name="study-level" id="beginner">Beginner</label><br><br>
+
+                        <label for="intermediate">
+                            <input type="radio" name="study-level" id="intermediate">Intermediate
+                        </label><br><br>
+
+                        <label for="advanced">
+                            <input type="radio" name="study-level" id="advanced">Advanced
+                        </label><br><br>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Skills</legend>
+                        <label for="html">HTML
+                        <input type="checkbox" name="skills[]" id="html"></label><br><br>
+
+                        <label for="css">CSS 
+                        <input type="checkbox" name="skills[]" id="css"></label><br><br>
+
+                        <label for="javascript">JavaScript 
+                        <input type="checkbox" name="skills[]" id="javascript"></label><br><br>
+
+                        <label for="none">None 
+                        <input type="checkbox" name="skills[]" id="none"></label><br><br>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Message</legend>
+                        <label for="message">Message <br>
+                            <textarea name="message" id="message" rows="4" placeholder="Tell us a bit about you!"></textarea>
+                        </label>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Agreement</legend>
+                        <label for="agreement">
+                            <input type="checkbox" name="agreement" id="agreement" required> I confirm the information is correct
+                        </label><br><br>
+                    </fieldset>
+
+                    <button type="submit">Enroll Now</button>
+
+                    <footer>
+                        <p>&copy;2026 Pioneer International University</p>
+                        <p>contact us:
+                            <a href="mailto:piu@gmail.com">piu@gmail.com</a>
+                        </p>
+                    </footer>
+                </form>
+            </section>
+        </main>
+</body>
+</html>
