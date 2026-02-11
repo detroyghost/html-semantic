@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conference Registration Page</title>
+</head>
+<body>
+    <header>
+        <h1>Plantech Conference</h1>
+        <p>We make a greener and healtier environment</p>
+
+        <nav>
+            <a href="semantics.html">Home</a><br>
+            <a href="schedule.html">Schedule</a><br>
+            <a href="speakers.html">Speakers</a><br>
+            <a href="register.html">Register</a><br>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <aside>
+        <h2>Why attend the Conference?</h2>
+        <p>We will increase your knowledge about plants and Environment</p>
+        <p>We will get insight of the future technologies to anticipate for</p>
+        <p> We will have a wonderful time</p>
+    </aside>
+    <main>
+        <section>
+            <article>
+                <h3>Web Development</h3>
+                <p>We help create web developers all around the world.</p>
+            </article>
+
+            <article>
+                <h3>Artificial Intelligence</h3>
+                <p>We teach students on how to create and use artificial Intelligence and make work much easier</p>
+            </article>
+
+            <article>
+                <h3>Cybersecurity</h3>
+                <p>We teach students on how to protect themselves from cyberbullies and cyberattacks and their devices, application and websites</p>
+            </article>
+        </section>
+
+        <form action="#" method="post">
+            <fieldset>
+                <legend>Registration Form</legend>
+                <label for="name">Name: <br>
+                    <input type="text" name="name" id="name" placeholder="Enter your Full Names" required><br><br>
+                </label>
+            
+                <hr>
+            
+                <label for="email">Email: <br>
+                <input type="email" name="email" id="email" placeholder="Enter your Email Address" required></label><br><br>
+
+                <label for="tel"> <br>
+                <input type="tel" name="tel" id="tel" placeholder="Enter your Phone Number" required></label><br><br>
+                
+                 <hr>
+                <label for="attendance-type">Attendance type <br>
+                <input type="radio" name="attendance-type" id="in-person" value="in-person">In-person
+                <input type="radio" name="attendance-type" id="virtual" value="virtual">Virtual</label><br><br>
+
+                 <hr>
+
+                <label for="day">Days Attending <br>
+                <input type="checkbox" name="days[]" id="day1" value="day1">DAY1 <br>
+                <input type="checkbox" name="days[]" id="day2" value="day2">DAY2 <br>
+                <input type="checkbox" name="days[]" id="day3" value="day3">DAY3 <br>
+                </label><br><br>
+
+                <hr>
+
+                <label for="meal-preference">Meal  Preference
+                    <select name="meals" id="meals" required>
+                        <option value=""disabled selected>Select a meal</option>
+                        <option value="none">None</option>
+                        <option value="vegetarian">Vegetarian</option>
+                        <option value="vegan">Vegan</option>
+                        <option value="halal">Halal</option>
+                        <option value="kosher">kosher</option>
+                    </select>
+                </label>
+
+                <hr>
+                <label for="message">Message: <br>
+                <textarea name="message" id="message" placeholder="Leave a Message!"></textarea>
+                </label><br><br>
+
+                <label for="agreement">
+                    <input type="checkbox" name="agreement" id="agreement" required> I confirm I have read and understand the script
+                </label>
+                <hr>
+                <button type="submit">Submit</button>
+
+            </fieldset>
+            
+                <footer>
+                    <p>&copy; 2026 Plantech Conference</p>
+                    <p>
+                        <a href="mailto:plantech@gmail.com">Email Us</a><br>
+                        <a href="tel:=+254757007166">Call Us</a>
+                    </p>
+                </footer>
+        </form>
+    </main>
+</body>
+</html>
